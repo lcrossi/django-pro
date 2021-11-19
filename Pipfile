@@ -12,6 +12,7 @@ Django = "==3.2.9"
 pytest-django = "*"
 
 [dev-packages]
+pytest-django = "*"
 
 [requires]
-python_version = "3.10"
+python_version = "3.9"
