@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3922736c-3340-4b19-8635-ea0e2d0b6da9" name="Changes" comment="[Refactor]: Using pipenv.">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/django.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/django-pro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/django-pro.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="3922736c-3340-4b19-8635-ea0e2d0b6da9" name="Changes" comment="[Build]: Server of continuous integration instaled.&#10;&#10;close #Branch1">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/django.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/django.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637276024474</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="[Build]: Server of continuous integration instaled.&#10;&#10;close #Branch1">
+      <created>1637281334427</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1637281334427</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -151,6 +153,7 @@
     <MESSAGE value="[Build]: Procfile added to run the application with gunicorn." />
     <MESSAGE value="[Fix]: Allowed Hosts bug fixed." />
     <MESSAGE value="[Refactor]: Using pipenv." />
-    <option name="LAST_COMMIT_MESSAGE" value="[Refactor]: Using pipenv." />
+    <MESSAGE value="[Build]: Server of continuous integration instaled.&#10;&#10;close #Branch1" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Build]: Server of continuous integration instaled.&#10;&#10;close #Branch1" />
   </component>
 </project>
