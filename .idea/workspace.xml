@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3922736c-3340-4b19-8635-ea0e2d0b6da9" name="Changes" comment="[Fix]: Allowed Hosts bug fixed.">
-      <change afterPath="$PROJECT_DIR$/setup.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webdev/home_view.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webdev/test_home.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webdev/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/webdev/urls.py" afterDir="false" />
+    <list default="true" id="3922736c-3340-4b19-8635-ea0e2d0b6da9" name="Changes" comment="[Refactor]: Using pipenv.">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/django.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/django-pro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/django-pro.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,14 +45,35 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.pytest for test_home.test_home_status_code">
+    <configuration name="test_home" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\lcros\Documents\codes\Imersao_Django_PythonProBr\django-pro\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/webdev" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/webdev/test_home.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest for test_home.test_home_status_code" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="django-pro" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\lcros\.virtualenvs\django-pro-ebQBkd-M\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/webdev" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
@@ -59,9 +83,14 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.test_home" />
+      <item itemvalue="Python tests.pytest for test_home.test_home_status_code" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.pytest for test_home.test_home_status_code" />
+        <item itemvalue="Python.test_home" />
       </list>
     </recent_temporary>
   </component>
@@ -95,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637262283442</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="[Refactor]: Using pipenv.">
+      <created>1637276024474</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1637276024474</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,6 +150,7 @@
     <MESSAGE value="[Build]: Minimal version of a Django application." />
     <MESSAGE value="[Build]: Procfile added to run the application with gunicorn." />
     <MESSAGE value="[Fix]: Allowed Hosts bug fixed." />
-    <option name="LAST_COMMIT_MESSAGE" value="[Fix]: Allowed Hosts bug fixed." />
+    <MESSAGE value="[Refactor]: Using pipenv." />
+    <option name="LAST_COMMIT_MESSAGE" value="[Refactor]: Using pipenv." />
   </component>
 </project>
