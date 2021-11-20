@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c911e45e-dea0-42bd-8560-c7b88908e941" name="Changes" comment="[Fix and Build]: Adding README.md and deleting .idea folder">
-      <change afterPath="$PROJECT_DIR$/webdev/home_view.py" afterDir="false" />
+    <list default="true" id="c911e45e-dea0-42bd-8560-c7b88908e941" name="Changes" comment="[Build]: Home_views added">
+      <change afterPath="$PROJECT_DIR$/webdev/tarefas/templates/tarefas/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webdev/tarefas/tests/test_tarefas_get.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webdev/tarefas/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webdev/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/webdev/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webdev/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/webdev/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +25,20 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="218axVQNnIGVcu9quPYdvE3bBqd" />
   <component name="ProjectViewState">
@@ -30,6 +48,57 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests in test_tarefas_get.py">
+    <configuration name="Python tests for test_tarefas_get.test_formulario_present" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="django-pro" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/webdev/tarefas/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_tarefas_get.test_formulario_present&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_tarefas_get.test_status_code" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="django-pro" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/webdev/tarefas/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_tarefas_get.test_status_code&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_tarefas_get.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="django-pro" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/webdev/tarefas/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/webdev/tarefas/tests/test_tarefas_get.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests in test_tarefas_get.py" />
+        <item itemvalue="Python tests.Python tests for test_tarefas_get.test_formulario_present" />
+        <item itemvalue="Python tests.Python tests for test_tarefas_get.test_status_code" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -54,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637326086514</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="[Build]: Home_views added">
+      <created>1637326369033</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1637326369033</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -71,6 +147,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[Fix]: Python version problems fixed." />
     <MESSAGE value="[Fix and Build]: Adding README.md and deleting .idea folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Fix and Build]: Adding README.md and deleting .idea folder" />
+    <MESSAGE value="[Build]: Home_views added" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Build]: Home_views added" />
   </component>
 </project>
