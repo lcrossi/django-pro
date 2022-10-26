@@ -1,2 +1,4 @@
 # django-pro
-Minimal configuration using django for web applications
+Minimal configuration using Django for web applications.
+<br/>
+<img src="./public/images/Django-pro-image.png" />
