@@ -24,9 +24,13 @@
                 </div>
                 <small class="form-text text-muted">{{ form.nome.errors }}</small>
             </form>
+                <ol class="list-group list-group-flush">
+                    {% for tarefa in tarefas %}
+                        <button type="button" class="list-group-item list-group-item-action"><li>{{ tarefa.nome }}</li></button>
+                    {% endfor %}
+                </ol>
         </div>
     </div>
 </div>
-
 </body>
 </html>
